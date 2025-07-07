@@ -74,9 +74,9 @@ section#header {
 
   & > img {
     aspect-ratio: 1/1;
-    height: 10vw;
-    width: 10vw;
-    border: thick solid #fafafa;
+    height: 20vmin;
+    width: 20vmin;
+    border: 0.5vmin solid #fafafa;
   }
 
   & > a > svg {
