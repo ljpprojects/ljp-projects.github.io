@@ -1,87 +1,91 @@
 :root {
-  --fg-col: #fafafa;
-  --bg-col: #171717;
+    --fg-col: #fafafa;
+    --bg-col: #171717;
 
-  @media (prefers-color-scheme: light) {
-    --bg-col: #fafafa;
-    --fg-col: #171717;
-  }
+    @media (prefers-color-scheme: light) {
+        --bg-col: #fafafa;
+        --fg-col: #171717;
+    }
 }
 
 :root,
 a {
-  font-family: "Poppins", sans-serif;
-  color: var(--fg-col);
-  text-decoration: none;
-  text-wrap-mode: wrap;
-  max-width: 90vw;
+    font-family: "Poppins", sans-serif;
+    color: var(--fg-col);
+    text-decoration: none;
+    text-wrap-mode: wrap;
+    max-width: 90vw;
 }
 
 h1 {
-  font-size: 3vw;
+    font-size: 3vw;
 }
 
 a {
-  font-weight: 600;
-  transition-duration: 0.5s;
-  border: none;
-  border-radius: 0.5vh;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    border: none;
+    border-radius: 0.5vh;
 }
 
-.un {
-  display: inline-block;
-  padding-bottom:2px;
-  background-image: linear-gradient(var(--fg-col) 0 0);
-  background-position: 0 100%; /*OR bottom left*/
-  background-size: 0% 2px;
-  background-repeat: no-repeat;
-  transition:
-    background-size 0.3s,
-    background-position 0s 0.3s; /*change after the size immediately*/
+.un,
+a {
+    display: inline-block;
+    padding-bottom: 2px;
+    background-image: linear-gradient(var(--fg-col) 0 0);
+    background-position: 0 100%;
+    /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition:
+        background-size 0.3s,
+        background-position 0s 0.3s;
+    /*change after the size immediately*/
 }
 
 .un:hover {
-  background-position: 100% 100%; /*OR bottom right*/
-  background-size: 100% 2px;
+    background-position: 100% 100%;
+    /*OR bottom right*/
+    background-size: 100% 2px;
 }
 
 body {
-  background-color: var(--bg-col);
+    background-color: var(--bg-col);
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 svg {
-  fill: var(--fg-col)
+    fill: var(--fg-col)
 }
 
 body {
-  padding: 0 5vw;
-  max-width: 90vw;
-  overflow-x: hidden;
+    padding: 0 5vw;
+    max-width: 90vw;
+    overflow-x: hidden;
 }
 
 section#header {
-  max-width: 90vw;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  gap: 10vw;
-  align-items: center;
-  padding: 2.5vh 5vw;
+    max-width: 90vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    gap: 10vw;
+    align-items: center;
+    padding: 2.5vh 5vw;
 
-  & > img {
-    aspect-ratio: 1/1;
-    height: 20vmin;
-    width: 20vmin;
-    border: 0.5vmin solid #fafafa;
-  }
+    &>img {
+        aspect-ratio: 1/1;
+        height: 20vmin;
+        width: 20vmin;
+        border: 0.5vmin solid #fafafa;
+    }
 
-  & > a > svg {
-    aspect-ratio: 1/1;
-    height: 10vw;
-    width: 10vw;
-  }
+    &>a>svg {
+        aspect-ratio: 1/1;
+        height: 10vw;
+        width: 10vw;
+    }
 }
