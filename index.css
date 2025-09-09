@@ -32,7 +32,7 @@ a {
 a {
     display: inline-block;
     padding-bottom: 2px;
-    background-image: linear-gradient(var(--fg-col) 0 0);
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.wCuPVbsX-OBYqIFQESwHVgHaEL?r=0&pid=Api");
     background-position: 0 100%;
     /*OR bottom left*/
     background-size: 0% 2px;
@@ -58,7 +58,7 @@ li {
 }
 
 svg {
-    fill: var(--fg-col)
+    fill: var(--fg-col);
 }
 
 body {
@@ -76,14 +76,14 @@ section#header {
     align-items: center;
     padding: 2.5vh 5vw;
 
-    &>img {
+    & > img {
         aspect-ratio: 1/1;
         height: 20vmin;
         width: 20vmin;
         border: 0.5vmin solid var(--fg-col);
     }
 
-    &>a>svg {
+    & > a > svg {
         aspect-ratio: 1/1;
         height: 10vw;
         width: 10vw;
