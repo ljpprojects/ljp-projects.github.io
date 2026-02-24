@@ -3,4 +3,4 @@ am-i-racist.mp4
 .DS_STORE
 node_modules
 .wrangler
-index.html
+package-lock.json
