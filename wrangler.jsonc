@@ -3,6 +3,7 @@
   "name": "ljpprojects-site",
   "compatibility_date": "2025-11-17",
   "assets": {
-    "directory": "./site"
-  }
+    "directory": "./site",
+    "not_found_handling": "none",
+  },
 }
