@@ -1,8 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "ljpprojects-site",
   "compatibility_date": "2025-11-17",
   "assets": {
     "directory": "./site",
-  }
-}
+  },
