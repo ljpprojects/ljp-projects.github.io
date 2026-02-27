@@ -32,7 +32,7 @@ a {
 a {
     display: inline-block;
     padding-bottom: 2px;
-    background-image: url("https://tse1.mm.bing.net/th/id/OIP.wCuPVbsX-OBYqIFQESwHVgHaEL?r=0&pid=Api");
+    background-image: url("/assets/icon.png");
     background-position: 0 100%;
     background-size: 0% 2px;
     background-repeat: no-repeat;
@@ -43,7 +43,6 @@ a {
 
 .un:hover {
     background-position: 100% 100%;
-    /*OR bottom right*/
     background-size: 100% 2px;
 }
 
