@@ -1,8 +1,5 @@
 {
-  "name": "ljp-projects.github.io",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
+  "name": "ljpprojects",
   "devDependencies": {
     "@types/bun": "latest",
     "wrangler": "^4.54.0"
