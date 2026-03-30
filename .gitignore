@@ -4,3 +4,4 @@ am-i-racist.mp4
 node_modules
 .wrangler
 bun.lock
+package-lock.json
