@@ -24,11 +24,40 @@
 
 <body>
     <section id="header">
-        <img src="/assets/icon.svg" />
+        <img src="/assets/icon.svg" id="logo" />
+        <audio src="/assets/sound/BIG SHOT.wav" id="audio" loop />
+        <style>
+            @keyframes spin {
+                0% {
+                    transform: rotate(360deg) scale(0.75)
+                }
+
+                50% {
+                    transform: rotate(180deg) scale(1.25);
+                }
+
+                100% {
+                    transform: rotate(0deg) scale(0.75)
+                }
+            }
+
+            .lmnop,
+            .lmnop * {
+                animation: spin 45s linear infinite;
+            }
+        </style>
+        <script>
+            const logo = document.getElementById("logo");
+            const audio = document.getElementById("audio");
+
+            logo.addEventListener("click", () => {
+                audio.play();
+                document.body.classList.add("lmnop");
+            })
+        </script>
         <h1>うるさいよ！！</h1>
     </section>
     <main>
-        <img src="/assets/canavan idnustries ltd. spoon.svg" />
         <!-- Sorted projects based on status/category -->
         <br />
         <h2>
@@ -112,7 +141,7 @@
                 </h3>
             </li>
         </ul>
-        <h2>あなたが　高齢よ！！！</h2>
+        <h2>あなた が　高齢 よ！！！</h2>
         <ul>
             <li>
                 <h3>
